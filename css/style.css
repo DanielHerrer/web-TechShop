@@ -115,7 +115,7 @@ body {
     }
 
 .section {
-    margin: 1rem;
+    margin: 0.5rem;
     font-size: 1.4rem;
 }
 
@@ -128,15 +128,67 @@ body {
         box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12), 5px 10px 12.5px rgba(0, 0, 0, 0.24) ;
     }
 
-    .frecuency {
+    .request {
         width: 50vw;
         background-color: #6b6b6b;
     }
 
-    .contact {
+    .information {
         width: 30vw;
         background-color: #6b6b6b;
     }
+    
+    .pages {
+        height:52vh;
+        width: 30vw;
+        background-color: #6b6b6b;
+    }
+
+        .list-pages {
+            list-style-type: none;
+            background-color: #fff;
+            font-size: 0.9rem;
+            border: solid 1px #ddd;
+            border-radius: 4px;
+            padding-left: 0px;
+        }
+    
+            .list-pages li {
+                padding: 15px;
+                border-bottom: solid 1px #ddd;
+            }
+    
+                .buttonLink {
+                    display: inline;
+                    float: right;
+                }
+    
+                    .buttonLink a {
+                        background-color: rgb(206, 107, 107);
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        border-radius: 3px;
+                        text-decoration: none;
+                        transition: 0.3s;
+                    }
+    
+                    .buttonLink a:link {
+                        color: white;
+                    }
+    
+                    .buttonLink a:visited {
+                        color: blue;
+                    }
+    
+                    .buttonLink a:hover {
+                        background-color: rgb(241, 139, 139);
+                    }
+    
+                    .buttonLink a:active {
+                        color: black;
+                    }
 
         .box {
             font-size: 1rem;
@@ -313,7 +365,32 @@ body {
     box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
 }
 
+    .formulary label {
+        position: relative;
+        float: left;
+    }
+
     .formulary input[type=text] {
+        width: 100%;
+        padding: 6px 10px; /*vertical horizontal*/
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /*se ajusta al width=100%*/
+    }
+
+    .formulary input[type=tel] {
+        width: 100%;
+        padding: 6px 10px; /*vertical horizontal*/
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /*se ajusta al width=100%*/
+    }
+
+    .formulary input[type=email] {
         width: 100%;
         padding: 6px 10px; /*vertical horizontal*/
         margin: 8px 0;
@@ -335,14 +412,14 @@ body {
     }
 
     .formulary input[type=sumbit] {
-        width: 100%;
+        width: 7rem;
+        text-align: center;
         background-color: #4caf50;
         color: white;
         padding: 14px 20px;
         border: none;
         margin: 8px 0;
         border-radius: 4px;
-        box-sizing: border-box;
         cursor: pointer;
     }
 
