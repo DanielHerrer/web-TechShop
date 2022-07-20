@@ -1,0 +1,377 @@
+@media (max-width: 1400px) {
+    html {
+      font-size: 25px;
+    }
+}
+  
+@media (max-width: 768px) {
+    html {
+      font-size: 18px;
+    }
+}
+  
+@media (max-width: 450px) {
+    html {
+      font-size: 12px;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+
+/**********************************HEADER*******************************************/
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background:#333;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 0;
+}
+
+header a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header a span{
+    color:rgb(255, 255, 255);
+}
+
+.logo-pic {
+    width: 1.8rem;
+    filter: brightness(1.0);
+}
+
+.logo {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5rem;
+    color: rgb(32, 129, 194);
+    text-shadow: 0px 0px 8px rgba(32, 129, 194, 0.7)
+}
+
+    .logo span {
+        text-shadow: none;
+    }
+
+.navigation {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 0.9rem;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .navigation ul li {
+        display: inline-block;
+    }
+
+        .navigation ul li a {
+            display: block;
+            padding: 0.4rem 0.3rem;
+            transition: all 0.4s linear;
+            
+            border-radius: 0.3rem;
+        }
+
+            .navigation ul li a:hover{
+                
+                text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+                background: rgb(32, 129, 194);
+            }
+
+/****************************************BODY*************************************/
+
+body {
+    background: url('../img/tech_bg.jpg') fixed;/* linear-gradient(rgb(47, 118, 160),rgb(29, 44, 85));/*url('../img/cannabibg.jpg') #47946e;*/
+    background-size: cover;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+    .cont {
+        margin: 2vw;
+        padding: 1vw;
+        background-color: #333;
+        border-radius: 4vh;
+        text-align: center;
+        box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12), 5px 10px 12.5px rgba(0, 0, 0, 0.24) ;
+    }
+
+.section {
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+    .sect {
+        margin: 1vw;
+        padding: 1vw;
+        background-color: #333;
+        border-radius: 1vh;
+        text-align: center;
+        box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12), 5px 10px 12.5px rgba(0, 0, 0, 0.24) ;
+    }
+
+    .frecuency {
+        width: 50vw;
+        background-color: #6b6b6b;
+    }
+
+    .contact {
+        width: 30vw;
+        background-color: #6b6b6b;
+    }
+
+        .box {
+            font-size: 1rem;
+            width: 100%;
+            background-color: #424242;
+            border-radius: 1vh;
+            margin-top: 2vh;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3) inset;
+        }    
+
+        .box ul {
+            list-style: none;
+            text-align: left;
+            color: yellow;
+            padding: 1rem 1rem;
+        }
+
+.galery {
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+}
+
+    .gal-pic {
+        width: 13rem;
+        height: 8rem;
+        margin-right: 0.1rem;
+        margin-left: 0.1rem;
+    }
+
+        .pic {
+            width: 100%;
+            height: 100%;
+            size-adjust: cover;
+            /*border-radius: 1.5vh;*/
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) ;
+        }
+
+            .one {
+                border-top-left-radius: 1.5vw;
+                border-bottom-left-radius: 1.5vw;
+            }
+
+            .two {
+                border-radius: none;
+            }
+
+            .three {
+                border-top-right-radius: 1.5vw;
+                border-bottom-right-radius: 1.5vw;
+            }
+
+.title {
+    margin: 0.5rem 0.5rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;    
+    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.6);
+}
+            
+.desc {
+    margin: 2rem;
+    font-size: 1.rem; /*35 pixeles*/
+    color: rgb(255, 255, 255);
+}
+            
+/****************************************BODY (INDEX)*************************************/
+
+.welcome {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/****************************************BODY (SERVICES)*************************************/
+
+
+/****************************************BODY (PRODUCTS)*************************************/
+
+.grid {
+    margin-bottom: 1.2rem; /*30 pixeles*/
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 8.8rem; /*320 pixeles*/
+    height: 13rem;
+    border-radius: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    /*box shadow: sombra X, sombra Y, desenfoque, color(0,0,0,opacidad)*/
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) ;
+    overflow: hidden;
+}
+
+.product h4 {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+.product h5 {
+    font-size: 0.6rem;
+    color: rgb(109, 109, 109);
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+    .bot {
+        margin: 0.5rem;
+        font-size: 0.65rem;
+        color: rgb(109, 109, 109);
+    }
+
+
+.price {
+    position: absolute;
+    overflow:visible;
+    width: 3.5rem;
+    height: 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    margin-left: 4.9rem;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 2px;
+}
+    
+    .priceUp {
+        background-color: red;
+        transform: skewX(26deg);
+        width: 0.7rem;
+        height: 0.5rem;
+        position: absolute;
+        top: 0;
+        margin-left: -5px;
+    }
+
+    .priceDown {
+        background-color: red;
+        transform: skewX(-26deg);
+        width: 0.7rem;
+        height: 0.5rem;
+        position: absolute;
+        bottom: 0;
+        margin-left: -5px;
+    }
+
+.product img {
+    margin-top: 0.6rem; /*15 pixeles*/
+    width: 6rem;    /*150 pixeles*/
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    /*border: rgb(182, 182, 182) 2px solid;*/
+    cursor: pointer;
+}
+
+/****************************************BODY (CONTACT)*************************************/
+
+.sub-title {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.formulary {
+    margin: 2vh auto;
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+
+    .formulary input[type=text] {
+        width: 100%;
+        padding: 6px 10px; /*vertical horizontal*/
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /*se ajusta al width=100%*/
+    }
+
+    .formulary textarea {
+        width: 100%;
+        padding: 6px 10px;
+        margin: 8px 0;
+        display: inline-block;
+        resize: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .formulary input[type=sumbit] {
+        width: 100%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        border: none;
+        margin: 8px 0;
+        border-radius: 4px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+
+.map {
+    width: 15rem;
+    height: 8rem;
+    border-radius: 4px;
+}
+
+/**************************************FOOTER***************************************/
+
+footer {
+    background:#333;
+    font-size: 0.6rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+/********************************************INPUT*********************************/
+
+input[type="radio"] {
+    margin: 0.2rem; /*5 pixeles*/
+}
+
+input[type="checkbox"] {
+    margin: 0.2rem;
+}
