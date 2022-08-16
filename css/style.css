@@ -114,6 +114,16 @@ body {
         box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.12), 5px 10px 12.5px rgba(0, 0, 0, 0.24) ;
     }
 
+    .contGlass {
+        margin: 2vw;
+        padding: 1vw;
+        background-color: #ffffff10;
+        border-radius: 3vh;
+        text-align: center;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
 .section {
     margin: 0.5rem;
     font-size: 1.4rem;
