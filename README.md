@@ -6,4 +6,4 @@ El proyecto requiere añadir funciones y responsividad.
 
 Nota: 'Contact' max width 500px 
 
-<a href="https://danielherrer.github.io/web-TechShop/index.html">Web TechShop</a>
+<a href="https://danielherrer.github.io/web-TechShop/index.html" target="_blank" rel="noopener noreferrer">Web TechShop</a>
