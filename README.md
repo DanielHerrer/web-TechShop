@@ -3,6 +3,7 @@
 
 Trabajado con HTML5 y CSS3.
 El proyecto requiere añadir funciones y responsividad.
+
 Nota: 'Contact' max width 500px 
 
 <a href="https://danielherrer.github.io/web-TechShop/contact.html">Web TechShop</a>
